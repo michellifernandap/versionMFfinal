@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <title>Stationary</title>
+</head>
+<body class="container-fluid" >
+
+  <!--=======================================================-->
+                    <!-- NAVBAR -->
+  <!--=======================================================-->
+
+  <header class=" bg-primary d-flex justify-content-center">
+    <img id="logo" src="./img/logo-stationary.png" class="mx-auto d-block" width="200" height="80" alt="png">
+    <!-- <img src="/img/logo-stationary.png" class="img-fluid rounded mx-auto d-block" alt="..."> -->
+    <!-- <p class="mb-0 p-2 fs-6 text-white Letter-sppacing">• ♡ STATIONARY WITH LOVE ♡ •</p> -->
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary p-3 bg-body-primary rounded-bottom" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-white fs-5 fw-bold">• ♡ •</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#equipo">EQUIPO</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#seccion-servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICIOS</a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item text-primary" href="#">Branding</a></li>
+              <li><a class="dropdown-item text-primary" href="Premadebrands.html">Premadebrands</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-primary" href="#">Fotografía</a></li>
+              <li><a class="dropdown-item text-primary" href="#">Diseño</a></li>
+              <li><a class="dropdown-item text-primary" href="#">Asesorías</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-primary" href="#seccion-contenido">Contenido</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#seccion-contacto">CONTACTO</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="email">
+          <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+          <button class="btn btn-Secondary btn-primary-outline-success" type="button">suscribete</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ <!--=======================================================-->
+                            <!-- INTRO -->
+  <!--=======================================================-->
+
+  <section class="px-5 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-1 fs-2 fw-bolder" id="seccion-contenido">
+        He creado una serie de identidades muy completas diseñadas a mi estilo que pueden resultar perfectas para tu marca. Contienen logos, variaciones, paleta de colores, tipografías y distintos elementos que pueden reforzar la identidad de tu marca como tarjetas de negocios, plantillas para posts e historias entre otras cosas.</h1>
+       <p class="p-1 fs-4 text-primary font-italic"> Premadebrands  ♡</p> 
+       <p class="fw-bolder"> • ♡ Destácate del resto ♡ • </p> 
+  </section>
+
+  <!--=======================================================-->
+                    <!-- TARJETAS -->
+  <!--=======================================================-->
+
+<div class="row carousel"> 
+  <!-- 1 card-->
+  <div class="col-lg-6 col-sm-12">
+    <div class="container pt-5 w-30">
+      <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel1">
+          <!-- carousel -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="card bg-primary text-white m-width-100">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title 1</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quae quam provident ipsa laborum veritatis corporis quibusdam molestiae consectetur voluptatem facere vitae voluptatum blanditiis iure, magnam nihil deleniti voluptas quia?</small></p>
+                                  <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-Secondary" type="button">♡ LO QUIERO ♡</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <img src="./img/branding1.jpg" alt="..." width="100%">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card bg-primary text-white m-width-100">
+                      <div class="row g-0">
+                          <div class="col-md-6">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title 2</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius similique maiores autem quod obcaecati et vero a sit repellendus ad expedita ab rem, praesentium voluptatibus? Quis eos suscipit nulla!</small></p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <img src="./img/branding1.jpg" alt="..." width="100%">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card bg-primary text-white m-width-100">
+                      <div class="row g-0">
+                          <div class="col-md-6">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title 3</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae, blanditiis praesentium aspernatur ipsam nostrum, placeat ad corrupti deserunt culpa repudiandae rem consequatur. Voluptas, nemo magnam dicta nobis iure ut.</small></p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <img src="./img/Branding2-06.jpg" alt="..." width="100%">
+                          </div>
+                      </div>
+                      </div>
+              </div>
+          </div>
+          <!-- Controles -->
+          <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"> ❤ </span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"> ❤ </span>
+          </a>
+      </div>
+  </div><!--//fin-->
+  </div>
+  <!-- 2 card-->
+  <div class="col-lg-6 col-sm-12">
+    <div class="container pt-5 w-30">
+        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel2">
+            <!-- Diapositivas -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card bg-primary text-white m-width-100">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title 1</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quae quam provident ipsa laborum veritatis corporis quibusdam molestiae consectetur voluptatem facere vitae voluptatum blanditiis iure, magnam nihil deleniti voluptas quia?</small></p>
+                                    <div class="d-grid gap-2 col-6 mx-auto">
+                                        <button class="btn btn-Secondary" type="button">♡ LO QUIERO ♡</button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./img/branding1.jpg" alt="..." width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-primary text-white m-width-100">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title 2</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quidem iste, sequi eaque reiciendis sapiente qui ducimus molestiae recusandae provident quos! Autem enim nam, sint perferendis sequi omnis natus nesciunt?</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./img/branding1.jpg" alt="..." width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-primary text-white m-width-100">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title 3</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quaerat repudiandae magnam veniam itaque ut possimus, laborum ab deserunt maiores. Quas sapiente dicta nam, perferendis nesciunt accusantium saepe quia aliquid!</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./img/Branding2-06.jpg" alt="..." width="100%">
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"> ❤ </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"> ❤ </span>
+            </a>
+        </div>
+    </div><!--//fin-->
+  </div>
+</div>
+
+
+<div class="row pt-5"> 
+  <!-- 3 card-->
+  <div class="col-lg-6 col-sm-12">
+    <div class="container pt-2 w-30">
+      <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+          <!-- carousel -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="card bg-primary text-white m-width-100">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title 1</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tenetur facilis asperiores doloribus eligendi aperiam harum inventore debitis exercitationem animi repudiandae eius facere vero est, architecto, veniam accusamus ab excepturi?</small></p>
+                              </div>
+                              <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-Secondary" type="button">♡ LO QUIERO ♡</button>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <img src="./img/branding1.jpg" alt="..." width="100%">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card bg-primary text-white m-width-100">
+                      <div class="row g-0">
+                          <div class="col-md-6">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title 2</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellendus perferendis fuga provident ea quos quod dignissimos ipsam debitis? Consequuntur praesentium officiis rerum pariatur, mollitia reiciendis recusandae sit animi optio?</small></p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <img src="./img/branding1.jpg" alt="..." width="100%">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="card bg-primary text-white m-width-100">
+                      <div class="row g-0">
+                          <div class="col-md-6">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title 3</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur adipisicing elit. A aut nulla et neque aliquam enim, incidunt unde voluptatum tempore doloremque delectus earum in quae, nobis eveniet natus numquam repudiandae molestiae.</small></p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <img src="./img/Branding2-06.jpg" alt="..." width="100%">
+                          </div>
+                      </div>
+                      </div>
+              </div>
+          </div>
+          <!-- Controles -->
+          <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"> ❤ </span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"> ❤ </span>
+          </a>
+      </div>
+  </div><!--//fin-->
+  </div>
+  <!-- 4 card-->
+  <div class="col-lg-6 col-sm-12">
+    <div class="container pt-2 w-30">
+        <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+            <!-- carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card bg-primary text-white m-width-100">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title 1</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, voluptate necessitatibus, impedit dolor harum explicabo veniam accusantium dolores deleniti iste provident officia ipsam aliquid iusto eum beatae. Consequatur, voluptate? Ipsam.</small></p>
+                                    <div class="d-grid gap-2 col-6 mx-auto">
+                                        <button class="btn btn-Secondary" type="button">♡ LO QUIERO ♡</button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./img/branding1.jpg" alt="..." width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-primary text-white m-width-100">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title 2</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem tenetur mollitia quibusdam aliquam architecto! Incidunt maiores vitae nam corrupti sint cupiditate est eum praesentium, beatae laborum dolore perspiciatis, illum in.</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./img/branding1.jpg" alt="..." width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card bg-primary text-white m-width-100">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title 3</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis enim eum vitae soluta animi, asperiores laboriosam adipisci fugiat sunt quisquam voluptatibus voluptatum, pariatur velit similique provident. Porro laudantium accusantium quisquam?</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./img/Branding2-06.jpg" alt="..." width="100%">
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"> ❤ </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"> ❤ </span>
+            </a>
+        </div>
+    </div><!--fin-->
+  </div>
+</div>
+
+  <!--=======================================================-->
+                  <!-- CARD PREGUNTAS Y RESPUESTAS -->
+  <!--=======================================================-->
+
+  <p class="text-center pt-5 fw-bolder">• ♡ Preguntas y Respuestas ♡ •</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="accordion pt-4 mx-auto" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button collapsed btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            ¿Qué es una Premade Brand?
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>¡SÓLO PARA UN CLIENTE!</strong> Una premade brand es una identidad que está previamente diseñada y lista para usarse. Están creadas con mi estilo con una personalidad muy definida que puede encajar perfectamente con alguna marca específica. Una premade brand está diseñada SÓLO PARA UN CLIENTE, por lo que te garantizo un diseño único e irrepetible. Son adaptables, es decir, si tu marca cumple con estos valores pero tiene otro nombre, este se puede ajustar al diseño, sin embargo, estas identidades no tienen cambios en el diseño.
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="accordion pt-4 mx-auto" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Para quién?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>¡Para Ti!</strong> Es perfecta para personas que busquen un diseño profesional, que esté previamente diseñado y no tengan que esperar por un proceso de diseño de una marca que usualmente es largo. Si se adapta a lo que necesitas ¡ES PARA TI!
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="accordion pt-4 mx-auto" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTree">
+                          <button class="accordion-button collapsed btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
+                            ¿Qué incluye?
+                          </button>
+                        </h2>
+                        <div id="collapseTree" class="accordion-collapse collapse" aria-labelledby="headingTree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>¡LO QUE NECESITAS PARA EMPEZAR!</strong> Un logotipo principal y sus variaciones en distintos formatos.
+                            <br>
+                            • ♡ Una paleta de colores con sus códigos.
+                            <br>
+                            • ♡ Fuentes tipográficas que completan tu identidad y textos adicionales.
+                            <br>
+                            • ♡ Gráficos que refuerzan la identidad de la marca. 
+                            <br>
+                            • ♡ Y un Brandboard, que es un manual de marca.
+                            <br>
+                            Además de esto cada identidad tendrá una serie de piezas gráficas tales como tarjetas de negocios, hojas membretadas, plantillas para posts e historias, stickers, thank you cards, patrones entre otros. Cada identidad tendrá piezas extras diferentes.
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="accordion pt-4 mx-auto" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            ¿Cómo es el proceso?
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>¿LISTO PARA EMPEZAR?</strong> Una vez que elijas y adquieras tu premade brand, recibirás un briefing donde especificarás algunos detalles que necesito de tu marca para personalizar tu identidad. Alrededor de 8 días hábiles recibirás el Brandboard para que revises y una vez que confirmes que todo está en orden, enviaré todos los archivos y tendrás una identidad lista para usarse. El brandboard incluye solo una revisión.
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+
+  <!--=======================================================-->
+                  <!-- DESCRIPTION BELOW -->
+  <!--=======================================================-->
+
+  <section class="px-5 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-1 fs-2 fw-bolder" id="seccion-contenido">El branding es una estrategia y un proceso de descubrimiento. Es el arte de hacer que tu marca logre ser reconocida, simpática, confiable y amada por todos. He creado varios paquetes que se pueden adaptar a tus necesidades.</h1>
+       <p class="p-1 fs-4 text-primary"> Estudio creativo para marcas intencionales hechas con el corazón ♡</p> 
+       <p class="fw-bolder"> • ♡ Destácate del resto ♡ • </p> 
+  </section>
+
+
+  <!--========================================================== -->
+                          <!--GRADIENTE-->
+  <!--========================================================== -->      
+  <div  class="p-0" id="bg-contactos">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120"><path fill="#e0a7b6" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </div>
+    <!--========================================================== -->
+                            <!--FIN GRADIENTE-->
+    <!--========================================================== -->   
+  
+
+
+    <!--========================================================== -->
+                            <!--FOOTER-->
+    <!--========================================================== -->
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3 pt-3">• ♡ STATIONARY WITH LOVE ♡ •</p>
+      <p class="fs-5 px-3 pt-3"> &copy; Todos Los Derechos Reservados 2021</p>
+      <div id="iconos">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>  
+      </div>
+    </footer>
+  <!--========================================================== -->
+                    <!--FIN DE FOOTER-->
+  <!--========================================================== -->
+
+
+
+
+  <!--=======================================================-->
+                    <!-- SCRIPT -->
+  <!--=======================================================-->
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

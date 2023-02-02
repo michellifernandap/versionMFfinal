@@ -1,0 +1,12 @@
+$theme-colors: (
+  "primary":   #e0a7b6,
+ "Secondary": #f6f4ee,
+) ;
+
+
+$white: #f6f4ee;
+$danger: #d3a3a3;
+
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+

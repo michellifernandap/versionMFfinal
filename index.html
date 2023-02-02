@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <title>Stationary</title>
+</head>
+<body class="container-fluid" >
+
+  <!--=======================================================-->
+                    <!-- NAVBAR -->
+  <!--=======================================================-->
+
+  <header class=" bg-primary d-flex justify-content-center">
+    <img id="logo" src="./img/logo-stationary.png" class="mx-auto d-block" width="200" height="80" alt="png">
+    <!-- <img src="/img/logo-stationary.png" class="img-fluid rounded mx-auto d-block" alt="..."> -->
+    <!-- <p class="mb-0 p-2 fs-6 text-white Letter-sppacing">• ♡ STATIONARY WITH LOVE ♡ •</p> -->
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary p-3 bg-body-primary rounded-bottom" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-white fs-5 fw-bold">• ♡ •</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#equipo">EQUIPO</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#seccion-servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICIOS</a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item text-primary" href="#">Branding</a></li>
+              <li><a class="dropdown-item text-primary" href="Premadebrands.html">Premadebrands</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-primary" href="#">Fotografía</a></li>
+              <li><a class="dropdown-item text-primary" href="#">Diseño</a></li>
+              <li><a class="dropdown-item text-primary" href="#">Asesorías</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-primary" href="#seccion-contenido">Contenido</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#seccion-contacto">CONTACTO</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="email">
+          <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+          <button class="btn btn-Secondary btn-primary-outline-success" type="button">suscribete</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--=======================================================-->
+                    <!-- SLIDER DE IMAGENES -->
+  <!--=======================================================-->
+  
+  <div class="container d-flex justify-content align-items-center pt-5 ">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/branding1.jpg" class="d-block w-100" alt="slide1">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/mumdays (1).jpg" class="d-block w-100" alt="slide2">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/mumdays2.jpg" class="d-block w-100" alt="slide3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"> ❤ </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"> ❤ </span>
+      </button>
+    </div>    
+  </div>
+  
+  <!--=======================================================-->
+                            <!-- INTRO -->
+  <!--=======================================================-->
+
+  <!--revisar este codigo-->
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-1 fs-2 fw-bolder" id="seccion-contenido">Estudio creativo para marcas intencionales hechas con el corazón ♡</h1>
+       <p class="fw-bolder"> • ♡ STATIONARY WITH LOVE ♡ • </p> 
+         <p class="p-1 fs-4 text-primary">Te ayudaré a crecer, a creer más en tu idea y a desarrollar una marca INCREÍBLE, que se parezca mucho a ti.</p> 
+        <!-- <p class="fw-italic">
+          es la agencia donde transformamos marcas ayudándolas a crecer, contar su historia y conectar, establecer tu presencia online. paginas  WEB, tiendas virtuales, redes sociales</p>
+        </p> -->
+    </div>
+  </section>
+  <!--revisar este codigo-->
+
+  <!--=======================================================-->
+                        <!-- SERVICIOS -->
+  <!--=======================================================-->
+  <section class="container-fluid" id="seccion-servicios">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap"> 
+        <img class="rounded Objetiv-fit-cover" src="./img/Branding2-06.jpg" alt="Branding" width="180" height="160">
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1 fw-bolder">Branding</h3>
+            <p class="px-4">Si quieres destacar del resto y tener una marca WOW, que funcione y transmita sus valores, trabajemos en el Branding de tu marca.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+          <img class="rounded" src="./img/fotografia-06.jpg" alt="Fotografia" width="180" height="160">
+        <div class="w-10">
+          <h3 class="fs-5 mt-4 px-4 pb-1 fw-bolder">Fotografía</h3>
+          <p class="px-4">Podemos crear juntos desde Fotografías conceptuales para tu producto o servicio hasta fotografía lifestyle para tu marca personal.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row w-75 mx-auto servicio-fila">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+          <img class="rounded Objetiv-fit-cover" src="./img/asesoria.png" alt="Asesoria" width="180" height="160">
+          <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1 fw-bolder">Asesorías</h3>
+              <p class="px-4">Quizás no sabes cómo comenzar, ¿tienes dudas con respecto a la identidad visual? Con estas asesorías aclararás tu mente.</p>
+          </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+        <img class="rounded Objetiv-fit-cover" src="./img/fotografy.png" alt="Diseño" width="180" height="160">
+        <div>
+            <h3 class="
+            fs-5 mt-4 px-4 pb-1 fw-bolder">Diseño</h3>
+            <p class="px-4">Analizamos la eficiencia y optimizamos los sitios WEB, Creemos un Contenido guapo y estratégico en redes sociales para que no pases desapercibido.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=======================================================-->
+                  <!-- ACERCA DE NOSOTROS -->
+  <!--=======================================================-->
+
+  <section>
+    <div class=" container w-75 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2 font-italic">Equipo pequeño con <span class="text-primary">Resultados Grandes</span>.</h1>
+        <p class="fs-4">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo para este reto, te esperamos para que te unas a nosotros.</p>
+    </div>
+    <div class="text-center">
+        <img id="img-equipo" src="./img/isolated-shot-multiethnic-female-groupmates-embrace-make-grimace-pout-lips-stand-closely-each-other.jpg" alt="equipo">
+    </div>
+    <!--<div style="width: 100%"><iframe width="430px" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=calle%20jaen%2012,%20madrid+(stationarywithlove)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe></div>-->
+    <div id="local" class="row mt-4">
+      <div class="mapa col-6"></div>
+      <div class="mx-0 col-6">
+        <div class="wrapper-local">
+          <h2>Ubicados en Texas & Spain</h2>
+          <h2 class="text-primary mb-4" id="typewriter"></h2>
+          <p class="fs-5 text-body">Para llegar a mas clientes, con el objetivo de crecer continuamente, Estamos ubicados en texas y spaña, colocando el corazon y todas las ganas en los paises que nos encontramos, dandolo todo siempre, un emprendimiento online, ¡Contactanos!</p>
+          <section class="d-flex justify-content-start" id="numeros-local">
+            <div> 
+                <p class="text-primary fs-5">248</p>
+                <p>Dias de Sol</p>
+            </div>
+            <div>
+                <p class="text-primary fs-5">100%</p>
+                <p>Aprobado</p>
+            </div>
+            <div>
+                <p class="text-primary fs-5">24 °C</p>
+                <p>Temperatura</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=======================================================-->
+                      <!-- FORMULARIO -->
+  <!--=======================================================-->
+
+<div class="border-4 border-4  border-secudary" id="seccion-contacto">
+  <div class="container  " style="max-width: 500px" id="contenedor-formulario">
+    <div class="text-center mb-4" id="titulo-formulario">
+      <div><img src="./img/logo-contactanos-05.png" alt="contacto" class="img-fluid ps-5"></div>
+      <!-- <h2 class="fw-bolder text-dark">CONTACTANOS</h2> -->
+      <p class="fs-5 mx-2 fw-light text-dark">Estamos aqui para hacer realidad tus proyectos</p>
+    </div>
+    <form  class="border-1" method="POST" data-netlify="true" action="#">     
+      <div class= "mb-3 mx-4">           
+        <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="mb-3 mx-4">            
+        <input type="input" class="form-control" id="name" name="name" placeholder="Nombre" required>
+      </div>
+      <div class="mb-3 mx-4">
+        <input type="tel" class="form-control" name="phone" id="phone" placeholder="000-000-000" required>
+      </div>
+      <div class="mb-3 mx-4">       
+        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje" rows="3"></textarea>
+      </div>
+        <!-- <button type="button" class=" btn btn-primary w-100 fs-5 mb-4">Enviar Mensaje</button> -->
+        <!-- <div class="d-grid gap-2">
+          <button class="btn btn-primary btn-lg mb-4 w-20" type="button">Botón</button>
+        </div> -->
+        <div class="d-grid gap-2 col-10 mx-auto">
+          <button class="btn btn-primary mb-4 fs-5" type="button">Enviar Mensaje</button>
+        </div>
+  </div>
+</div>
+  <!--=======================================================-->
+                      <!-- fin FORMULARIO -->
+  <!--=======================================================-->
+
+  <!--========================================================== -->
+                          <!--GRADIENTE-->
+  <!--========================================================== -->   
+
+  <div  class="p-0" id="bg-contactos">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120"><path fill="#e0a7b6" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+  </div>
+
+  <!--========================================================== -->
+                          <!--FIN GRADIENTE-->
+  <!--========================================================== -->   
+
+  <!--========================================================== -->
+                            <!--FOOTER-->
+  <!--========================================================== -->
+  <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3 pt-3">• ♡ STATIONARY WITH LOVE ♡ •</p>
+    <p class="fs-5 px-3 pt-3"> &copy; Todos Los Derechos Reservados 2021</p>
+    <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>  
+    </div>
+  </footer>
+<!--========================================================== -->
+                        <!--FIN DE FOOTER-->
+<!--========================================================== -->
+  
+  
+  
+   
+
+
+  <!--=======================================================-->
+                    <!-- SCRIPT -->
+  <!--=======================================================-->
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+<script src="main.js"></script>
+</body>
+</html>
+
+
