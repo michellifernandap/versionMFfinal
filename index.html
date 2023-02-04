@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +59,7 @@
             <a class="nav-link text-white" href="#seccion-contacto">CONTACTO</a>
           </li>
         </ul>
-        <form class="d-flex" role="email">
+        <form class="d-flex">
           <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
           <button class="btn btn-Secondary btn-primary-outline-success" type="button">suscribete</button>
         </form>
@@ -78,7 +78,7 @@
             <img src="./img/branding1.jpg" class="d-block w-100" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="./img/mumdays (1).jpg" class="d-block w-100" alt="slide2">
+            <img src="./img/mumdays(1).jpg" class="d-block w-100" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
             <img src="./img/mumdays2.jpg" class="d-block w-100" alt="slide3">
@@ -99,17 +99,13 @@
                             <!-- INTRO -->
   <!--=======================================================-->
 
-  <!--revisar este codigo-->
+ 
   <section class="w-50 mx-auto text-center pt-5" id="intro">
     <h1 class="p-1 fs-2 fw-bolder" id="seccion-contenido">Estudio creativo para marcas intencionales hechas con el corazón ♡</h1>
        <p class="fw-bolder"> • ♡ STATIONARY WITH LOVE ♡ • </p> 
          <p class="p-1 fs-4 text-primary">Te ayudaré a crecer, a creer más en tu idea y a desarrollar una marca INCREÍBLE, que se parezca mucho a ti.</p> 
-        <!-- <p class="fw-italic">
-          es la agencia donde transformamos marcas ayudándolas a crecer, contar su historia y conectar, establecer tu presencia online. paginas  WEB, tiendas virtuales, redes sociales</p>
-        </p> -->
-    </div>
   </section>
-  <!--revisar este codigo-->
+  
 
   <!--=======================================================-->
                         <!-- SERVICIOS -->
@@ -168,9 +164,8 @@
       <div class="mx-0 col-6">
         <div class="wrapper-local">
           <h2>Ubicados en Texas & Spain</h2>
-          <h2 class="text-primary mb-4" id="typewriter"></h2>
           <p class="fs-5 text-body">Para llegar a mas clientes, con el objetivo de crecer continuamente, Estamos ubicados en texas y spaña, colocando el corazon y todas las ganas en los paises que nos encontramos, dandolo todo siempre, un emprendimiento online, ¡Contactanos!</p>
-          <section class="d-flex justify-content-start" id="numeros-local">
+          <div class="d-flex justify-content-start" id="numeros-local">
             <div> 
                 <p class="text-primary fs-5">248</p>
                 <p>Dias de Sol</p>
@@ -183,7 +178,7 @@
                 <p class="text-primary fs-5">24 °C</p>
                 <p>Temperatura</p>
             </div>
-          </section>
+          </div>
         </div>
       </div>
     </div>
@@ -196,16 +191,17 @@
 <div class="border-4 border-4  border-secudary" id="seccion-contacto">
   <div class="container  " style="max-width: 500px" id="contenedor-formulario">
     <div class="text-center mb-4" id="titulo-formulario">
-      <div><img src="./img/logo-contactanos-05.png" alt="contacto" class="img-fluid ps-5"></div>
-      <!-- <h2 class="fw-bolder text-dark">CONTACTANOS</h2> -->
+      <div>
+        <img src="./img/logo-contactanos-05.png" alt="contacto" class="img-fluid ps-5">
+      </div>
       <p class="fs-5 mx-2 fw-light text-dark">Estamos aqui para hacer realidad tus proyectos</p>
     </div>
-    <form  class="border-1" method="POST" data-netlify="true" action="#">     
+    <form  class="border-1" method="POST" data-netlify="true" action="#">   
       <div class= "mb-3 mx-4">           
         <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
       </div>
       <div class="mb-3 mx-4">            
-        <input type="input" class="form-control" id="name" name="name" placeholder="Nombre" required>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
       </div>
       <div class="mb-3 mx-4">
         <input type="tel" class="form-control" name="phone" id="phone" placeholder="000-000-000" required>
@@ -213,13 +209,10 @@
       <div class="mb-3 mx-4">       
         <textarea class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje" rows="3"></textarea>
       </div>
-        <!-- <button type="button" class=" btn btn-primary w-100 fs-5 mb-4">Enviar Mensaje</button> -->
-        <!-- <div class="d-grid gap-2">
-          <button class="btn btn-primary btn-lg mb-4 w-20" type="button">Botón</button>
-        </div> -->
-        <div class="d-grid gap-2 col-10 mx-auto">
+      <div class="d-grid gap-2 col-10 mx-auto">
           <button class="btn btn-primary mb-4 fs-5" type="button">Enviar Mensaje</button>
-        </div>
+      </div>
+    </form>
   </div>
 </div>
   <!--=======================================================-->
