@@ -1,3 +1,14 @@
+
+fetch('https://api.openweathermap.org/data/2.5/weather?q=madrid&appid=49d26d6e2f5861c25563caa77ee12fa3')
+  .then(response => response.json())
+  .then(data => {
+    const kelvinTemp = data.main.temp;
+    const celsiusTemp = kelvinTemp - 273.15;
+    document.getElementById("temperatura").innerHTML = celsiusTemp.toFixed(0) + ' °C';
+  });
+
+
+
 let app = document.getElementById('typewriter');
  
 let typewriter = new Typewriter(app, {
@@ -15,4 +26,6 @@ typewriter
   $('.carousel').carousel({
     interval: 10000
   });
+  
+
   
