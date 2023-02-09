@@ -1,0 +1,9 @@
+@import "./style.css";
+
+
+/*===============Propiedades Globales================*/
+
+body{
+font-family: 'Comfortaa', cursive;
+overflow-x: hidden;
+}
