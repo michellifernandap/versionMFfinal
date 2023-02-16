@@ -96,6 +96,22 @@ overflow-x: hidden;
     margin: 0;
 }
 
+
+/*===========================SECCION API TIEMPO==================================*/
+/*
+.tarjeta {
+    font-family: 'Comfortaa', cursive;
+    overflow-x: hidden;
+    background:#e0a7b6;
+    color: white;
+    padding: 2em;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    max-width: 220px;
+    margin: 1em;
+  }
+  */
 /*=========================CONTACTOS BACKGROUND================================*/
 
 #bg-contacto {
